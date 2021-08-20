@@ -1,0 +1,16 @@
+{
+	"players": [
+		{
+			"name": "Christian Pulisic",
+      "playerId": 688295
+		},
+    {
+			"name": "Tyler Adams",
+      "playerId": 729769
+		},
+    {
+			"name": "Weston McKennie",
+      "playerId": 848266
+		}
+	]
+}
