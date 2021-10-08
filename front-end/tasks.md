@@ -1,0 +1,6 @@
+- setup mui header
+- grid of selects, such as country select dropdown
+- timeline (big scheduler) setup with holder info
+- use box to create header
+- use grid for higher level format/grouping
+- look for list of active USA player pool
