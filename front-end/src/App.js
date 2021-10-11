@@ -23,20 +23,35 @@ function App() {
           },
         }}
       />
-      <Grid container spacing={2}>
-        <FormControl variant="filled" sx={{ m: 1, minWidth: 120 }}>
-          <InputLabel>Country</InputLabel>
-          <Select>
-            <MenuItem>USA</MenuItem>
-            <MenuItem>Mexico</MenuItem>
-          </Select>
-          <Grid item xs={5}>
-            <Select />
-          </Grid>
-          <Grid item xs={5}>
-            <Select />
-          </Grid>
-        </FormControl>
+      <Grid container spacing={2} p={10}>
+        <Grid item xs={4}>
+          <FormControl variant="filled" sx={{ width: '75%' }}>
+            <InputLabel>Country</InputLabel>
+            <Select>
+              <MenuItem>USA</MenuItem>
+              <MenuItem>Mexico</MenuItem>
+            </Select>
+          </FormControl>
+        </Grid>
+        <Grid item xs={4}>
+          <FormControl variant="filled" sx={{ width: '75%' }}>
+            <InputLabel>Country</InputLabel>
+            <Select>
+              <MenuItem>USA</MenuItem>
+              <MenuItem>Mexico</MenuItem>
+            </Select>
+          </FormControl>
+        </Grid>
+        <Grid item xs={4}>
+          <FormControl variant="filled" sx={{ width: '75%' }}>
+            <InputLabel>Country</InputLabel>
+            <Select>
+              <MenuItem>USA</MenuItem>
+              <MenuItem>Mexico</MenuItem>
+            </Select>
+          </FormControl>
+        </Grid>
+
       </Grid>
     </div>
 
