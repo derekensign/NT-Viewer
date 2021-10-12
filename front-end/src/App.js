@@ -9,6 +9,15 @@ import Scheduler, {
   SchedulerData, ViewTypes, DATE_FORMAT
 } from 'react-big-scheduler';
 import 'react-big-scheduler/lib/css/style.css';
+import FullCalendar from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import timeGridPlugin from '@fullcalendar/timegrid';
+import interactionPlugin from '@fullcalendar/interaction'; // needed for dayClick
+
+// must manually import the stylesheets for each plugin
+// import '@fullcalendar/core/main.css'; can't resolve this directory?
+import '@fullcalendar/daygrid/main.css';
+import '@fullcalendar/timegrid/main.css';
 import Moment from 'react-moment';
 import { DragDropContext } from 'react-beautiful-dnd';
 import logo from './logo.svg';
