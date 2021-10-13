@@ -1,16 +1,515 @@
 {
-	"players": [
-		{
-		"name": "Christian Pulisic",
-      	"playerId": 688295
-		},
+  "players": [
     {
-		"name": "Tyler Adams",
-      "playerId": 729769
-		},
+      "name": "Christian Pulisic",
+      "playerId": 688295,
+      "teamId": 8455,
+      "teamName": "Chelsea",
+      "country": "USA"
+    },
     {
-			"name": "Weston McKennie",
-      "playerId": 848266
-		}
-	]
+      "name": "Tyler Adams",
+      "playerId": 729769,
+      "teamId": 178475,
+      "teamName": "RB Leipzig",
+      "country": "USA"
+    },
+    {
+      "name": "Giovanni Reyna",
+      "playerId": 1071179,
+      "teamId": 9789,
+      "teamName": "Borussia Dortmund",
+      "country": "USA"
+    },
+    {
+      "name": "Sergino Dest",
+      "playerId": 892816,
+      "teamId": 8634,
+      "teamName": "Barcelona",
+      "country": "USA"
+    },
+    {
+      "name": "Yunus Musah",
+      "playerId": 1137272,
+      "teamId": 10267,
+      "teamName": "Valencia",
+      "country": "USA"
+    },
+    {
+      "name": "John Anthony Brooks",
+      "playerId": 278831,
+      "teamId": 8721,
+      "teamName": "Wolfsburg",
+      "country": "USA"
+    },
+    {
+      "name": "Timothy Weah",
+      "playerId": 889536,
+      "teamId": 8639,
+      "teamName": "Lille",
+      "country": "USA"
+    },
+    {
+      "name": "Brenden Aaronson",
+      "playerId": 952322,
+      "teamId": 10013,
+      "teamName": "Salzburg",
+      "country": "USA"
+    },
+    {
+      "name": "Daryl Dike",
+      "playerId": 1136396,
+      "teamId": 267810,
+      "teamName": "Orlando City",
+      "country": "USA"
+    },
+    {
+      "name": "Joshua Sargent",
+      "playerId": 848011,
+      "teamId": 9850,
+      "teamName": "Norwich City",
+      "country": "USA"
+    },
+    {
+      "name": "Chris Richards",
+      "playerId": 950829,
+      "teamId": 8226,
+      "teamName": "TSG Hoffenheim",
+      "country": "USA"
+    },
+    {
+      "name": "Antonee Robinson",
+      "playerId": 662428,
+      "teamId": 9879,
+      "teamName": "Fulham",
+      "country": "USA"
+    },
+    {
+      "name": "Zack Steffen",
+      "playerId": 533127,
+      "teamId": 8456,
+      "teamName": "Manchester City",
+      "country": "USA"
+    },
+    {
+      "name": "Konrad de la Fuente",
+      "playerId": 1054033,
+      "teamId": 8592,
+      "teamName": "Marseille",
+      "country": "USA"
+    },
+    {
+      "name": "Gianluca Busio",
+      "playerId": 924431,
+      "teamId": 7881,
+      "teamName": "Venezia",
+      "country": "USA"
+    },
+    {
+      "name": "Bryan Reynolds",
+      "playerId": 924446,
+      "teamId": 8686,
+      "teamName": "Roma",
+      "country": "USA"
+    },
+    {
+      "name": "Cristian Roldan",
+      "playerId": 621946,
+      "teamId": 130394,
+      "teamName": "Seattle Sounders FC",
+      "country": "USA"
+    },
+    {
+      "name": "Mark McKenzie",
+      "playerId": 924485,
+      "teamId": 9987,
+      "teamName": "Genk",
+      "country": "USA"
+    },
+    {
+      "name": "Jordan Morris",
+      "playerId": 578643,
+      "teamId": 130394,
+      "teamName": "Seattle Sounders FC",
+      "country": "USA"
+    },
+    {
+      "name": "Theoson Jordan Siebatcheu",
+      "playerId": 613714,
+      "teamId": 10192,
+      "teamName": "Young Boys",
+      "country": "USA"
+    },
+    {
+      "name": "Cole Bassett",
+      "playerId": 955472,
+      "teamId": 8314,
+      "teamName": "Colorado Rapids",
+      "country": "USA"
+    },
+    {
+      "name": "Matthew Hoppe",
+      "playerId": 1202104,
+      "teamId": 8661,
+      "teamName": "Mallorca",
+      "country": "USA"
+    },
+    {
+      "name": "DeAndre Yedlin",
+      "playerId": 432040,
+      "teamId": 8637,
+      "teamName": "Galatasaray",
+      "country": "USA"
+    },
+    {
+      "name": "Reggie Cannon",
+      "playerId": 825603,
+      "teamId": 8613,
+      "teamName": "Boavista",
+      "country": "USA"
+    },
+    {
+      "name": "Djordje Mihailovic",
+      "playerId": 830601,
+      "teamId": 161195,
+      "teamName": "CF Montreal",
+      "country": "USA"
+    },
+    {
+      "name": "James Sands",
+      "playerId": 880095,
+      "teamId": 546238,
+      "teamName": "New York City FC",
+      "country": "USA"
+    },
+    {
+      "name": "Miles Robinson",
+      "playerId": 825623,
+      "teamId": 773958,
+      "teamName": "Atlanta United",
+      "country": "USA"
+    },
+    {
+      "name": "Joseph Scally",
+      "playerId": 959696,
+      "teamId": 9788,
+      "teamName": "Borussia M'Gladbach",
+      "country": "USA"
+    },
+    {
+      "name": "Folarin Balogun",
+      "playerId": 982677,
+      "teamId": 357195,
+      "teamName": "Arsenal U23",
+      "country": "England"
+    },
+    {
+      "name": "Aaron Long",
+      "playerId": 525136,
+      "teamId": 6514,
+      "teamName": "New York Red Bulls",
+      "country": "USA"
+    },
+    {
+      "name": "Walker Zimmerman",
+      "playerId": 431956,
+      "teamId": 915807,
+      "teamName": "Nashville SC",
+      "country": "USA"
+    },
+    {
+      "name": "Darlington Nagbe",
+      "playerId": 254844,
+      "teamId": 6001,
+      "teamName": "Columbus Crew",
+      "country": "USA"
+    },
+    {
+      "name": "Gyasi Zardes",
+      "playerId": 431635,
+      "teamId": 6001,
+      "teamName": "Columbus Crew",
+      "country": "USA"
+    },
+    {
+      "name": "George Bello",
+      "playerId": 953995,
+      "teamId": 773958,
+      "teamName": "Atlanta United",
+      "country": "USA"
+    },
+    {
+      "name": "Keaton Parks",
+      "playerId": 782782,
+      "teamId": 546238,
+      "teamName": "New York City FC",
+      "country": "USA"
+    },
+    {
+      "name": "Chris Mueller",
+      "playerId": 924498,
+      "teamId": 267810,
+      "teamName": "Orlando City",
+      "country": "USA"
+    },
+    {
+      "name": "Jesus Ferreira",
+      "playerId": 825608,
+      "teamId": 6399,
+      "teamName": "FC Dallas",
+      "country": "USA"
+    },
+    {
+      "name": "Caden Clark",
+      "playerId": 1171305,
+      "teamId": 6514,
+      "teamName": "New York Red Bulls",
+      "country": "USA"
+    },
+    {
+      "name": "Kellyn Acosta",
+      "playerId": 431948,
+      "teamId": 8314,
+      "teamName": "Colorado Rapids",
+      "country": "USA"
+    },
+    {
+      "name": "Paul Arriola",
+      "playerId": 462244,
+      "teamId": 6602,
+      "teamName": "DC United",
+      "country": "USA"
+    },
+    {
+      "name": "Matt Miazga",
+      "playerId": 458324,
+      "teamId": 9866,
+      "teamName": "Deportivo Alaves",
+      "country": "USA"
+    },
+    {
+      "name": "Paxton Pomykal",
+      "playerId": 797368,
+      "teamId": 6399,
+      "teamName": "FC Dallas",
+      "country": "USA"
+    },
+    {
+      "name": "Andres Perea",
+      "playerId": 1041997,
+      "teamId": 267810,
+      "teamName": "Orlando City",
+      "country": "Colombia"
+    },
+    {
+      "name": "Jackson Yueill",
+      "playerId": 825712,
+      "teamId": 6603,
+      "teamName": "San Jose Earthquakes",
+      "country": "USA"
+    },
+    {
+      "name": "Justin Che",
+      "playerId": 1245693,
+      "teamId": 6399,
+      "teamName": "FC Dallas",
+      "country": "USA"
+    },
+    {
+      "name": "Samuel Vines",
+      "playerId": 972488,
+      "teamId": 9988,
+      "teamName": "Royal Antwerp",
+      "country": "USA"
+    },
+    {
+      "name": "Chase Gasper",
+      "playerId": 1026100,
+      "teamId": 207242,
+      "teamName": "Minnesota United",
+      "country": "USA"
+    },
+    {
+      "name": "Hassani Dotson",
+      "playerId": 1026098,
+      "teamId": 207242,
+      "teamName": "Minnesota United",
+      "country": "USA"
+    },
+    {
+      "name": "Matt Turner",
+      "playerId": 729988,
+      "teamId": 6580,
+      "teamName": "New England Revolution",
+      "country": "USA"
+    },
+    {
+      "name": "Jeremy Ebobisse",
+      "playerId": 792024,
+      "teamId": 6603,
+      "teamName": "San Jose Earthquakes",
+      "country": "USA"
+    },
+    {
+      "name": "Philippe Sandler",
+      "playerId": 773831,
+      "teamId": 10242,
+      "teamName": "Troyes",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Ricardo Pepi",
+      "playerId": 1036401,
+      "teamId": 6399,
+      "teamName": "FC Dallas",
+      "country": "USA"
+    },
+    {
+      "name": "Sebastian Lletget",
+      "playerId": 411629,
+      "teamId": 6637,
+      "teamName": "LA Galaxy",
+      "country": "USA"
+    },
+    {
+      "name": "Cade Cowell",
+      "playerId": 1025942,
+      "teamId": 6603,
+      "teamName": "San Jose Earthquakes",
+      "country": "USA"
+    },
+    {
+      "name": "Wil Trapp",
+      "playerId": 431896,
+      "teamId": 207242,
+      "teamName": "Minnesota United",
+      "country": "USA"
+    },
+    {
+      "name": "Duane Holmes",
+      "playerId": 480787,
+      "teamId": 9796,
+      "teamName": "Huddersfield Town",
+      "country": "USA"
+    },
+    {
+      "name": "Cameron Carter-Vickers",
+      "playerId": 643589,
+      "teamId": 9925,
+      "teamName": "Celtic",
+      "country": "USA"
+    },
+    {
+      "name": "Auston Trusty",
+      "playerId": 688271,
+      "teamId": 8314,
+      "teamName": "Colorado Rapids",
+      "country": "USA"
+    },
+    {
+      "name": "Kik Pierie",
+      "playerId": 775413,
+      "teamId": 8611,
+      "teamName": "FC Twente",
+      "country": "Netherlands"
+    },
+    {
+      "name": "Eryk Williamson",
+      "playerId": 848003,
+      "teamId": 307690,
+      "teamName": "Portland Timbers",
+      "country": "USA"
+    },
+    {
+      "name": "Anthony Fontana",
+      "playerId": 924483,
+      "teamId": 191716,
+      "teamName": "Philadelphia Union",
+      "country": "USA"
+    },
+    {
+      "name": "Frankie Amaya",
+      "playerId": 1025983,
+      "teamId": 6514,
+      "teamName": "New York Red Bulls",
+      "country": "USA"
+    },
+    {
+      "name": "Owen Otasowie",
+      "playerId": 1096372,
+      "teamId": 8342,
+      "teamName": "Club Brugge",
+      "country": "USA"
+    },
+    {
+      "name": "Sean Johnson",
+      "playerId": 198426,
+      "teamId": 546238,
+      "teamName": "New York City FC",
+      "country": "USA"
+    },
+    {
+      "name": "Emerson Hyndman",
+      "playerId": 564843,
+      "teamId": 773958,
+      "teamName": "Atlanta United",
+      "country": "USA"
+    },
+    {
+      "name": "Tim Parker",
+      "playerId": 621559,
+      "teamId": 8259,
+      "teamName": "Houston Dynamo FC",
+      "country": "USA"
+    },
+    {
+      "name": "Tim Ream",
+      "playerId": 198444,
+      "teamId": 9879,
+      "teamName": "Fulham",
+      "country": "USA"
+    },
+    {
+      "name": "Luca de la Torre",
+      "playerId": 780418,
+      "teamId": 9791,
+      "teamName": "Heracles",
+      "country": "USA"
+    },
+    {
+      "name": "Ethan Horvath",
+      "playerId": 471274,
+      "teamId": 10203,
+      "teamName": "Nottingham Forest",
+      "country": "USA"
+    },
+    {
+      "name": "Shaq Moore",
+      "playerId": 643583,
+      "teamId": 9867,
+      "teamName": "Tenerife",
+      "country": "USA"
+    },
+    {
+      "name": "Lynden Gooch",
+      "playerId": 620124,
+      "teamId": 8472,
+      "teamName": "Sunderland",
+      "country": "USA"
+    },
+    {
+      "name": "Ian Harkes",
+      "playerId": 825663,
+      "teamId": 9938,
+      "teamName": "Dundee United",
+      "country": "USA"
+    },
+    {
+      "name": "Weston McKennie",
+      "playerId": 848266,
+      "teamId": 9885,
+      "teamName": "Juventus",
+      "country": "USA"
+    }
+  ]
 }

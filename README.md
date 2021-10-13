@@ -12,6 +12,17 @@ Start with only the name and playerId. Then make a request to Futmob in order to
 	"name": "Weston McKennie",
   "playerId": 848266,
   "teamName": "Juventus",
-  "teamId":, 
+  "teamId": 9885, 
+}
+```
+
+Adding teams to track within teams.json
+
+```
+{
+  "teamName": "Juventus",
+  "teamId": 9885,
+  "players": [],
+  "schedule": {}
 }
 ```
