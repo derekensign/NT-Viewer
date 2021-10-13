@@ -27,6 +27,7 @@ async function getPlayerInfo() {
       let playerArray = res.map(playerData => {
         // console.log('Player Data: ', playerData.data)
         var player = new Object();
+		let playerPositions = new Array();
         player.name = playerData.data.name;
         player.playerId = playerData.data.id;
         player.teamId = playerData.data.origin.teamId;
@@ -38,7 +39,13 @@ async function getPlayerInfo() {
 		const age = playerProps.find(obj => {
           return obj.title === "Age" 
         });
-        player.country = country.value;
+		playerData.data.origin.positionDesc.primaryPosition !== null ? playerPositions.push(playerData.data.origin.positionDesc.primaryPosition) : console.log('No position for: ', playerData.data.name);
+        playerData.data.origin.positionDesc.nonPrimaryPositions !== null && typeof playerData.data.origin.positionDesc.nonPrimaryPositions == 'string' ? 
+			// console.log('yay!') : 
+			playerPositions.push.apply(playerPositions, playerData.data.origin.positionDesc.nonPrimaryPositions.split(', ')) : 
+			null;
+		player.playerPosition = playerPositions
+		player.country = country.value;
 		player.age = age.value;
 
         return player
