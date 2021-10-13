@@ -1,20 +1,18 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import Scheduler, {
   SchedulerData,
   ViewTypes,
   DemoData
-} from "react-big-scheduler";
-import withDragDropContext from "./withDnDContext";
+} from 'react-big-scheduler';
+import withDragDropContext from './withDnDContext';
+import 'react-big-scheduler/lib/css/style.css';
 
-import "react-big-scheduler/lib/css/style.css";
-
-class Basic extends Component {
+class BigScheduler extends Component {
   constructor(props) {
     super(props);
 
-    //let schedulerData = new SchedulerData(new moment("2017-12-18").format(DATE_FORMAT), ViewTypes.Week);
-    let schedulerData = new SchedulerData("2017-12-18", ViewTypes.Week);
-    schedulerData.localeMoment.locale("en");
+    const schedulerData = new SchedulerData('2017-12-18', ViewTypes.Week);
+    schedulerData.localeMoment.locale('en');
     schedulerData.setResources(DemoData.resources);
     schedulerData.setEvents(DemoData.events);
     this.state = {
@@ -22,39 +20,7 @@ class Basic extends Component {
     };
   }
 
-  render() {
-    const { viewModel } = this.state;
-    return (
-      <div>
-        <div>
-          <h3 style={{ textAlign: "center" }}>Basic example</h3>
-          <Scheduler
-            schedulerData={viewModel}
-            prevClick={this.prevClick}
-            nextClick={this.nextClick}
-            onSelectDate={this.onSelectDate}
-            onViewChange={this.onViewChange}
-            eventItemClick={this.eventClicked}
-            viewEventClick={this.ops1}
-            viewEventText="Ops 1"
-            viewEvent2Text="Ops 2"
-            viewEvent2Click={this.ops2}
-            updateEventStart={this.updateEventStart}
-            updateEventEnd={this.updateEventEnd}
-            moveEvent={this.moveEvent}
-            newEvent={this.newEvent}
-            onScrollLeft={this.onScrollLeft}
-            onScrollRight={this.onScrollRight}
-            onScrollTop={this.onScrollTop}
-            onScrollBottom={this.onScrollBottom}
-            toggleExpandFunc={this.toggleExpandFunc}
-          />
-        </div>
-      </div>
-    );
-  }
-
-  prevClick = schedulerData => {
+  prevClick = (schedulerData) => {
     schedulerData.prev();
     schedulerData.setEvents(DemoData.events);
     this.setState({
@@ -62,7 +28,7 @@ class Basic extends Component {
     });
   };
 
-  nextClick = schedulerData => {
+  nextClick = (schedulerData) => {
     schedulerData.next();
     schedulerData.setEvents(DemoData.events);
     this.setState({
@@ -114,22 +80,22 @@ class Basic extends Component {
 
   newEvent = (schedulerData, slotId, slotName, start, end, type, item) => {
     if (
-      confirm(
+      window.confirm(
         `Do you want to create a new event? {slotId: ${slotId}, slotName: ${slotName}, start: ${start}, end: ${end}, type: ${type}, item: ${item}}`
       )
     ) {
       let newFreshId = 0;
-      schedulerData.events.forEach(item => {
+      schedulerData.events.forEach((item) => {
         if (item.id >= newFreshId) newFreshId = item.id + 1;
       });
 
-      let newEvent = {
+      const newEvent = {
         id: newFreshId,
-        title: "New event you just created",
-        start: start,
-        end: end,
+        title: 'New event you just created',
+        start,
+        end,
         resourceId: slotId,
-        bgColor: "purple"
+        bgColor: 'purple'
       };
       schedulerData.addEvent(newEvent);
       this.setState({
@@ -140,7 +106,7 @@ class Basic extends Component {
 
   updateEventStart = (schedulerData, event, newStart) => {
     if (
-      confirm(
+      window.confirm(
         `Do you want to adjust the start of the event? {eventId: ${
           event.id
         }, eventTitle: ${event.title}, newStart: ${newStart}}`
@@ -155,7 +121,7 @@ class Basic extends Component {
 
   updateEventEnd = (schedulerData, event, newEnd) => {
     if (
-      confirm(
+      window.confirm(
         `Do you want to adjust the end of the event? {eventId: ${
           event.id
         }, eventTitle: ${event.title}, newEnd: ${newEnd}}`
@@ -170,7 +136,7 @@ class Basic extends Component {
 
   moveEvent = (schedulerData, event, slotId, slotName, start, end) => {
     if (
-      confirm(
+      window.confirm(
         `Do you want to move the event? {eventId: ${event.id}, eventTitle: ${
           event.title
         }, newSlotId: ${slotId}, newSlotName: ${slotName}, newStart: ${start}, newEnd: ${end}`
@@ -208,11 +174,11 @@ class Basic extends Component {
   };
 
   onScrollTop = (schedulerData, schedulerContent, maxScrollTop) => {
-    console.log("onScrollTop");
+    console.log('onScrollTop');
   };
 
   onScrollBottom = (schedulerData, schedulerContent, maxScrollTop) => {
-    console.log("onScrollBottom");
+    console.log('onScrollBottom');
   };
 
   toggleExpandFunc = (schedulerData, slotId) => {
@@ -221,6 +187,38 @@ class Basic extends Component {
       viewModel: schedulerData
     });
   };
+
+  render() {
+    const { viewModel } = this.state;
+    return (
+      <div>
+        <div>
+          <h3 style={{ textAlign: 'center' }}>Basic example</h3>
+          <Scheduler
+            schedulerData={viewModel}
+            prevClick={this.prevClick}
+            nextClick={this.nextClick}
+            onSelectDate={this.onSelectDate}
+            onViewChange={this.onViewChange}
+            eventItemClick={this.eventClicked}
+            viewEventClick={this.ops1}
+            viewEventText="Ops 1"
+            viewEvent2Text="Ops 2"
+            viewEvent2Click={this.ops2}
+            updateEventStart={this.updateEventStart}
+            updateEventEnd={this.updateEventEnd}
+            moveEvent={this.moveEvent}
+            newEvent={this.newEvent}
+            onScrollLeft={this.onScrollLeft}
+            onScrollRight={this.onScrollRight}
+            onScrollTop={this.onScrollTop}
+            onScrollBottom={this.onScrollBottom}
+            toggleExpandFunc={this.toggleExpandFunc}
+          />
+        </div>
+      </div>
+    );
+  }
 }
 
-export default withDragDropContext(Basic);
+export default withDragDropContext(BigScheduler);

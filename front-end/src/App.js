@@ -6,7 +6,7 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Scheduler, {
-  SchedulerData, ViewTypes, DATE_FORMAT
+  SchedulerData, ViewTypes, DATE_FORMAT,
 } from 'react-big-scheduler';
 import 'react-big-scheduler/lib/css/style.css';
 import FullCalendar from '@fullcalendar/react';
@@ -19,8 +19,7 @@ import interactionPlugin from '@fullcalendar/interaction'; // needed for dayClic
 import '@fullcalendar/daygrid/main.css';
 import '@fullcalendar/timegrid/main.css';
 import Moment from 'react-moment';
-import { DragDropContext } from 'react-beautiful-dnd';
-import logo from './logo.svg';
+import BigScheduler from './scheduler/BigScheduler';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 
@@ -31,26 +30,26 @@ function App() {
     {
       id: 'r0',
       name: 'Resource0',
-      groupOnly: true
+      groupOnly: true,
     },
     {
       id: 'r1',
-      name: 'Resource1'
+      name: 'Resource1',
     },
     {
       id: 'r2',
       name: 'Resource2',
-      parentId: 'r0'
+      parentId: 'r0',
     },
     {
       id: 'r3',
       name: 'Resource3',
-      parentId: 'r4'
+      parentId: 'r4',
     },
     {
       id: 'r4',
       name: 'Resource4',
-      parentId: 'r2'
+      parentId: 'r2',
     },
   ];
   schedulerData.setResources(resources);
@@ -64,7 +63,7 @@ function App() {
       end: '2017-12-19 23:30:00',
       resourceId: 'r1',
       title: 'I am finished',
-      bgColor: '#D9D9D9'
+      bgColor: '#D9D9D9',
     },
     {
       id: 2,
@@ -72,7 +71,7 @@ function App() {
       end: '2017-12-26 23:30:00',
       resourceId: 'r2',
       title: 'I am not resizable',
-      resizable: false
+      resizable: false,
     },
     {
       id: 3,
@@ -80,7 +79,7 @@ function App() {
       end: '2017-12-20 23:30:00',
       resourceId: 'r3',
       title: 'I am not movable',
-      movable: false
+      movable: false,
     },
     {
       id: 4,
@@ -88,7 +87,7 @@ function App() {
       end: '2017-12-20 23:30:00',
       resourceId: 'r1',
       title: 'I am not start-resizable',
-      startResizable: false
+      startResizable: false,
     },
     {
       id: 5,
@@ -97,8 +96,8 @@ function App() {
       resourceId: 'r2',
       title: 'R2 has recurring tasks every week on Tuesday, Friday',
       rrule: 'FREQ=WEEKLY;DTSTART=20171219T013000Z;BYDAY=TU,FR',
-      bgColor: '#f759ab'
-    }
+      bgColor: '#f759ab',
+    },
   ];
   schedulerData.setEvents(events);
 
@@ -143,13 +142,19 @@ function App() {
             </Select>
           </FormControl>
         </Grid>
-
+        {/* <div className="demo-app-calendar">
+          <FullCalendar
+            defaultView="dayGridMonth"
+            header={{
+              left: 'prev,next today',
+              center: 'title',
+              right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
+            }}
+            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+          />
+        </div> */}
+        <BigScheduler />
       </Grid>
-      <DragDropContext>
-        <Scheduler
-          schedulerData={schedulerData}
-        />
-      </DragDropContext>
     </div>
 
   );
