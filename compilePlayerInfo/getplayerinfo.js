@@ -8,6 +8,7 @@ const playerPath = "./players.json"
 
 async function fetchPlayers(playerId) {
   const playerurl = "https://www.fotmob.com/playerData?id=" + playerId
+  console.log('Requesting Player Id: ', playerId)
   return await axios.get(playerurl);
 }
 
@@ -34,7 +35,11 @@ async function getPlayerInfo() {
         const country = playerProps.find(obj => {
           return obj.title === "Country" 
         });
+		const age = playerProps.find(obj => {
+          return obj.title === "Age" 
+        });
         player.country = country.value;
+		player.age = age.value;
 
         return player
       });
