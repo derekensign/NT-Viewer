@@ -1,3 +1,448 @@
 {
-	"teams": []
+  "teams": [
+    {
+      "players": [
+        688295
+      ],
+      "fixtures": [],
+      "teamId": 8455,
+      "teamName": "Chelsea"
+    },
+    {
+      "players": [
+        729769
+      ],
+      "fixtures": [],
+      "teamId": 178475,
+      "teamName": "RB Leipzig"
+    },
+    {
+      "players": [
+        1071179
+      ],
+      "fixtures": [],
+      "teamId": 9789,
+      "teamName": "Borussia Dortmund"
+    },
+    {
+      "players": [
+        892816
+      ],
+      "fixtures": [],
+      "teamId": 8634,
+      "teamName": "Barcelona"
+    },
+    {
+      "players": [
+        1137272
+      ],
+      "fixtures": [],
+      "teamId": 10267,
+      "teamName": "Valencia"
+    },
+    {
+      "players": [
+        278831
+      ],
+      "fixtures": [],
+      "teamId": 8721,
+      "teamName": "Wolfsburg"
+    },
+    {
+      "players": [
+        889536
+      ],
+      "fixtures": [],
+      "teamId": 8639,
+      "teamName": "Lille"
+    },
+    {
+      "players": [
+        952322
+      ],
+      "fixtures": [],
+      "teamId": 10013,
+      "teamName": "Salzburg"
+    },
+    {
+      "players": [
+        1136396,
+        924498,
+        1041997
+      ],
+      "fixtures": [],
+      "teamId": 267810,
+      "teamName": "Orlando City"
+    },
+    {
+      "players": [
+        848011
+      ],
+      "fixtures": [],
+      "teamId": 9850,
+      "teamName": "Norwich City"
+    },
+    {
+      "players": [
+        950829
+      ],
+      "fixtures": [],
+      "teamId": 8226,
+      "teamName": "TSG Hoffenheim"
+    },
+    {
+      "players": [
+        662428,
+        198444
+      ],
+      "fixtures": [],
+      "teamId": 9879,
+      "teamName": "Fulham"
+    },
+    {
+      "players": [
+        533127
+      ],
+      "fixtures": [],
+      "teamId": 8456,
+      "teamName": "Manchester City"
+    },
+    {
+      "players": [
+        1054033
+      ],
+      "fixtures": [],
+      "teamId": 8592,
+      "teamName": "Marseille"
+    },
+    {
+      "players": [
+        924431
+      ],
+      "fixtures": [],
+      "teamId": 7881,
+      "teamName": "Venezia"
+    },
+    {
+      "players": [
+        924446
+      ],
+      "fixtures": [],
+      "teamId": 8686,
+      "teamName": "Roma"
+    },
+    {
+      "players": [
+        621946,
+        578643
+      ],
+      "fixtures": [],
+      "teamId": 130394,
+      "teamName": "Seattle Sounders FC"
+    },
+    {
+      "players": [
+        924485
+      ],
+      "fixtures": [],
+      "teamId": 9987,
+      "teamName": "Genk"
+    },
+    {
+      "players": [
+        613714
+      ],
+      "fixtures": [],
+      "teamId": 10192,
+      "teamName": "Young Boys"
+    },
+    {
+      "players": [
+        955472,
+        431948,
+        688271
+      ],
+      "fixtures": [],
+      "teamId": 8314,
+      "teamName": "Colorado Rapids"
+    },
+    {
+      "players": [
+        1202104
+      ],
+      "fixtures": [],
+      "teamId": 8661,
+      "teamName": "Mallorca"
+    },
+    {
+      "players": [
+        432040
+      ],
+      "fixtures": [],
+      "teamId": 8637,
+      "teamName": "Galatasaray"
+    },
+    {
+      "players": [
+        825603
+      ],
+      "fixtures": [],
+      "teamId": 8613,
+      "teamName": "Boavista"
+    },
+    {
+      "players": [
+        830601
+      ],
+      "fixtures": [],
+      "teamId": 161195,
+      "teamName": "CF Montreal"
+    },
+    {
+      "players": [
+        880095,
+        782782,
+        198426
+      ],
+      "fixtures": [],
+      "teamId": 546238,
+      "teamName": "New York City FC"
+    },
+    {
+      "players": [
+        825623,
+        953995,
+        564843
+      ],
+      "fixtures": [],
+      "teamId": 773958,
+      "teamName": "Atlanta United"
+    },
+    {
+      "players": [
+        959696
+      ],
+      "fixtures": [],
+      "teamId": 9788,
+      "teamName": "Borussia M'Gladbach"
+    },
+    {
+      "players": [
+        982677
+      ],
+      "fixtures": [],
+      "teamId": 357195,
+      "teamName": "Arsenal U23"
+    },
+    {
+      "players": [
+        525136,
+        1171305,
+        1025983
+      ],
+      "fixtures": [],
+      "teamId": 6514,
+      "teamName": "New York Red Bulls"
+    },
+    {
+      "players": [
+        431956
+      ],
+      "fixtures": [],
+      "teamId": 915807,
+      "teamName": "Nashville SC"
+    },
+    {
+      "players": [
+        254844,
+        431635
+      ],
+      "fixtures": [],
+      "teamId": 6001,
+      "teamName": "Columbus Crew"
+    },
+    {
+      "players": [
+        825608,
+        797368,
+        1245693,
+        1036401
+      ],
+      "fixtures": [],
+      "teamId": 6399,
+      "teamName": "FC Dallas"
+    },
+    {
+      "players": [
+        462244
+      ],
+      "fixtures": [],
+      "teamId": 6602,
+      "teamName": "DC United"
+    },
+    {
+      "players": [
+        458324
+      ],
+      "fixtures": [],
+      "teamId": 9866,
+      "teamName": "Deportivo Alaves"
+    },
+    {
+      "players": [
+        825712,
+        792024,
+        1025942
+      ],
+      "fixtures": [],
+      "teamId": 6603,
+      "teamName": "San Jose Earthquakes"
+    },
+    {
+      "players": [
+        972488
+      ],
+      "fixtures": [],
+      "teamId": 9988,
+      "teamName": "Royal Antwerp"
+    },
+    {
+      "players": [
+        1026100,
+        1026098,
+        431896
+      ],
+      "fixtures": [],
+      "teamId": 207242,
+      "teamName": "Minnesota United"
+    },
+    {
+      "players": [
+        729988
+      ],
+      "fixtures": [],
+      "teamId": 6580,
+      "teamName": "New England Revolution"
+    },
+    {
+      "players": [
+        773831
+      ],
+      "fixtures": [],
+      "teamId": 10242,
+      "teamName": "Troyes"
+    },
+    {
+      "players": [
+        411629
+      ],
+      "fixtures": [],
+      "teamId": 6637,
+      "teamName": "LA Galaxy"
+    },
+    {
+      "players": [
+        480787
+      ],
+      "fixtures": [],
+      "teamId": 9796,
+      "teamName": "Huddersfield Town"
+    },
+    {
+      "players": [
+        643589
+      ],
+      "fixtures": [],
+      "teamId": 9925,
+      "teamName": "Celtic"
+    },
+    {
+      "players": [
+        775413
+      ],
+      "fixtures": [],
+      "teamId": 8611,
+      "teamName": "FC Twente"
+    },
+    {
+      "players": [
+        848003
+      ],
+      "fixtures": [],
+      "teamId": 307690,
+      "teamName": "Portland Timbers"
+    },
+    {
+      "players": [
+        924483
+      ],
+      "fixtures": [],
+      "teamId": 191716,
+      "teamName": "Philadelphia Union"
+    },
+    {
+      "players": [
+        1096372
+      ],
+      "fixtures": [],
+      "teamId": 8342,
+      "teamName": "Club Brugge"
+    },
+    {
+      "players": [
+        621559
+      ],
+      "fixtures": [],
+      "teamId": 8259,
+      "teamName": "Houston Dynamo FC"
+    },
+    {
+      "players": [
+        780418
+      ],
+      "fixtures": [],
+      "teamId": 9791,
+      "teamName": "Heracles"
+    },
+    {
+      "players": [
+        471274
+      ],
+      "fixtures": [],
+      "teamId": 10203,
+      "teamName": "Nottingham Forest"
+    },
+    {
+      "players": [
+        643583
+      ],
+      "fixtures": [],
+      "teamId": 9867,
+      "teamName": "Tenerife"
+    },
+    {
+      "players": [
+        620124
+      ],
+      "fixtures": [],
+      "teamId": 8472,
+      "teamName": "Sunderland"
+    },
+    {
+      "players": [
+        825663
+      ],
+      "fixtures": [],
+      "teamId": 9938,
+      "teamName": "Dundee United"
+    },
+    {
+      "players": [
+        848266
+      ],
+      "fixtures": [],
+      "teamId": 9885,
+      "teamName": "Juventus"
+    }
+  ]
 }
