@@ -7,7 +7,7 @@ const baseUrl = "https://www.fotmob.com";
 const teamPath = "./teams.json"
 const playerPath = "./players.json"
 
-async function fetchTeams(teamId) {
+const fetchTeams = async function(teamId) {
   const teamurl = "https://www.fotmob.com//teams?id=" + teamId
   console.log('Requesting Team Id: ', teamId)
   return await axios.get(teamurl);
@@ -48,21 +48,40 @@ async function getTeamInfo() {
         newTeam.teamName = player.teamName;
         newTeam.players.push(player.playerId);
         teamsObject.teams.push(newTeam);
+		// Add Request to Team Requests Queue
+		if (teamsObject.teams.length === 1) {
+			teamRequests.push(fetchTeams(player.teamId));
+		};
       }
     });
+
+	letTeamDataArray = Promise.all(teamRequests).then(res => {
+		console.log('response: ', res[0].data);
+		let teamIndex = teamsObject.teams.findIndex(team => team.teamId == res[0].data.details.id);
+		console.log('team Index: ', teamIndex, 'team Id: ', res[0].data.details.id);
+		teamsObject.teams[teamIndex].country = res[0].data.details.country;
+		teamsObject.teams[teamIndex].shortName = res[0].data.details.shortName;
+		teamsObject.teams[teamIndex].fixtures = res[0].data.fixtures;
+	}).catch(error => {
+      // handle error
+      console.log('error: ', error);
+    }).finally(() => {
+		// Write to file
+		const content = JSON.stringify(teamsObject, null, 2);
+		fs.writeFile(teamPath, content, 'utf8', function (err) {
+			if (err) {
+			return console.log(err);
+			}
+
+			console.log("The file was saved!");
+		}); 
+	});
+	// console.log('team requests: ', teamRequests);
 
     // Make requests for each team
 
 
-    // Write to file
-    const content = JSON.stringify(teamsObject, null, 2);
-    fs.writeFile(teamPath, content, 'utf8', function (err) {
-        if (err) {
-          return console.log(err);
-        }
-
-        console.log("The file was saved!");
-    }); 
+    
 
     // console.log('teams: ', content)
     // let playerDataArray = Promise.all(playerRequests).then(res => {

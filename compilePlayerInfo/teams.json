@@ -4,9 +4,1968 @@
       "players": [
         688295
       ],
-      "fixtures": [],
+      "fixtures": [
+        {
+          "id": 3657384,
+          "pageUrl": "/livescores/3657384/matchfacts/afc-bournemouth-vs-chelsea",
+          "opponent": {
+            "id": 8678,
+            "name": "Bournemouth",
+            "score": 1
+          },
+          "home": {
+            "id": 8678,
+            "name": "Bournemouth",
+            "score": 1
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 2
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "A",
+            " | Club Friendlies"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Club Friendlies",
+            "leagueId": 489
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "1 - 2",
+            "startDateStr": "Tue, 27 Jul",
+            "startDateStrShort": "27. Jul.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3623571,
+          "pageUrl": "/livescores/3623571/matchfacts/arsenal-vs-chelsea",
+          "opponent": {
+            "id": 9825,
+            "name": "Arsenal",
+            "score": 1
+          },
+          "home": {
+            "id": 9825,
+            "name": "Arsenal",
+            "score": 1
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 2
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "A",
+            " | Club Friendlies"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Club Friendlies",
+            "leagueId": 489
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "1 - 2",
+            "startDateStr": "Sun, 1 Aug",
+            "startDateStrShort": "1. Aug.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3623572,
+          "pageUrl": "/livescores/3623572/matchfacts/chelsea-vs-tottenham-hotspur",
+          "opponent": {
+            "id": 8586,
+            "name": "Tottenham",
+            "score": 2
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 2
+          },
+          "away": {
+            "id": 8586,
+            "name": "Tottenham",
+            "score": 2
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | Club Friendlies"
+          ],
+          "color": "#989898",
+          "notStarted": false,
+          "tournament": {
+            "name": "Club Friendlies",
+            "leagueId": 489
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "2 - 2",
+            "startDateStr": "Wed, 4 Aug",
+            "startDateStrShort": "4. Aug.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3596651,
+          "pageUrl": "/livescores/3596651/matchfacts/chelsea-vs-villarreal",
+          "opponent": {
+            "id": 10205,
+            "name": "Villarreal",
+            "score": 6
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 7
+          },
+          "away": {
+            "id": 10205,
+            "name": "Villarreal",
+            "score": 6
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | UEFA Super Cup"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "UEFA Super Cup",
+            "leagueId": 74
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "7 - 6",
+            "startDateStr": "Wed, 11 Aug",
+            "startDateStrShort": "11. Aug.",
+            "reason": {
+              "short": "Pen",
+              "long": "After penalties"
+            }
+          }
+        },
+        {
+          "id": 3609931,
+          "pageUrl": "/livescores/3609931/matchfacts/chelsea-vs-crystal-palace",
+          "opponent": {
+            "id": 9826,
+            "name": "Crystal Palace",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 3
+          },
+          "away": {
+            "id": 9826,
+            "name": "Crystal Palace",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "3 - 0",
+            "startDateStr": "Sat, 14 Aug",
+            "startDateStrShort": "14. Aug.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3609939,
+          "pageUrl": "/livescores/3609939/matchfacts/arsenal-vs-chelsea",
+          "opponent": {
+            "id": 9825,
+            "name": "Arsenal",
+            "score": 0
+          },
+          "home": {
+            "id": 9825,
+            "name": "Arsenal",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 2
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "0 - 2",
+            "startDateStr": "Sun, 22 Aug",
+            "startDateStrShort": "22. Aug.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3609952,
+          "pageUrl": "/livescores/3609952/matchfacts/liverpool-vs-chelsea",
+          "opponent": {
+            "id": 8650,
+            "name": "Liverpool",
+            "score": 1
+          },
+          "home": {
+            "id": 8650,
+            "name": "Liverpool",
+            "score": 1
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 1
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#989898",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "1 - 1",
+            "startDateStr": "Sat, 28 Aug",
+            "startDateStrShort": "28. Aug.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3609961,
+          "pageUrl": "/livescores/3609961/matchfacts/chelsea-vs-aston-villa",
+          "opponent": {
+            "id": 10252,
+            "name": "Aston Villa",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 3
+          },
+          "away": {
+            "id": 10252,
+            "name": "Aston Villa",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "3 - 0",
+            "startDateStr": "Sat, 11 Sep",
+            "startDateStrShort": "11. Sep.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3714082,
+          "pageUrl": "/livescores/3714082/matchfacts/chelsea-vs-zenit-st.-petersburg",
+          "opponent": {
+            "id": 8698,
+            "name": "Zenit",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 1
+          },
+          "away": {
+            "id": 8698,
+            "name": "Zenit",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | Champions League"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Champions League",
+            "leagueId": 42
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "1 - 0",
+            "startDateStr": "Tue, 14 Sep",
+            "startDateStrShort": "14. Sep.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3609976,
+          "pageUrl": "/livescores/3609976/matchfacts/tottenham-hotspur-vs-chelsea",
+          "opponent": {
+            "id": 8586,
+            "name": "Tottenham",
+            "score": 0
+          },
+          "home": {
+            "id": 8586,
+            "name": "Tottenham",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 3
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "0 - 3",
+            "startDateStr": "Sun, 19 Sep",
+            "startDateStrShort": "19. Sep.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3713002,
+          "pageUrl": "/livescores/3713002/matchfacts/chelsea-vs-aston-villa",
+          "opponent": {
+            "id": 10252,
+            "name": "Aston Villa",
+            "score": 4
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 5
+          },
+          "away": {
+            "id": 10252,
+            "name": "Aston Villa",
+            "score": 4
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | Carabao Cup"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Carabao Cup",
+            "leagueId": 133
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "5 - 4",
+            "startDateStr": "Wed, 22 Sep",
+            "startDateStrShort": "22. Sep.",
+            "reason": {
+              "short": "Pen",
+              "long": "After penalties"
+            }
+          }
+        },
+        {
+          "id": 3609981,
+          "pageUrl": "/livescores/3609981/matchfacts/chelsea-vs-manchester-city",
+          "opponent": {
+            "id": 8456,
+            "name": "Man City",
+            "score": 1
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8456,
+            "name": "Man City",
+            "score": 1
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#da383d",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "0 - 1",
+            "startDateStr": "Sat, 25 Sep",
+            "startDateStrShort": "25. Sep.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3714085,
+          "pageUrl": "/livescores/3714085/matchfacts/juventus-vs-chelsea",
+          "opponent": {
+            "id": 9885,
+            "name": "Juventus",
+            "score": 1
+          },
+          "home": {
+            "id": 9885,
+            "name": "Juventus",
+            "score": 1
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "A",
+            " | Champions League"
+          ],
+          "color": "#da383d",
+          "notStarted": false,
+          "tournament": {
+            "name": "Champions League",
+            "leagueId": 42
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "1 - 0",
+            "startDateStr": "Wed, 29 Sep",
+            "startDateStrShort": "29. Sep.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3609991,
+          "pageUrl": "/livescores/3609991/matchfacts/chelsea-vs-southampton",
+          "opponent": {
+            "id": 8466,
+            "name": "Southampton",
+            "score": 1
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 3
+          },
+          "away": {
+            "id": 8466,
+            "name": "Southampton",
+            "score": 1
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#00985f",
+          "notStarted": false,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "finished": true,
+            "started": true,
+            "cancelled": false,
+            "scoreStr": "3 - 1",
+            "startDateStr": "Sat, 2 Oct",
+            "startDateStrShort": "2. Oct.",
+            "reason": {
+              "short": "FT",
+              "long": "Full-Time"
+            }
+          }
+        },
+        {
+          "id": 3610001,
+          "pageUrl": "/livescores/3610001/matchfacts/brentford-vs-chelsea",
+          "opponent": {
+            "id": 9937,
+            "name": "Brentford",
+            "score": 0
+          },
+          "home": {
+            "id": 9937,
+            "name": "Brentford",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "11:30",
+            "startDateStr": "Sat, 16 Oct",
+            "startDateStrShort": "16. Oct."
+          }
+        },
+        {
+          "id": 3714086,
+          "pageUrl": "/livescores/3714086/matchfacts/chelsea-vs-malmö-ff",
+          "opponent": {
+            "id": 10237,
+            "name": "Malmö FF",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 10237,
+            "name": "Malmö FF",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | Champions League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Champions League",
+            "leagueId": 42
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "14:00",
+            "startDateStr": "Wed, 20 Oct",
+            "startDateStrShort": "20. Oct."
+          }
+        },
+        {
+          "id": 3610012,
+          "pageUrl": "/livescores/3610012/matchfacts/chelsea-vs-norwich-city",
+          "opponent": {
+            "id": 9850,
+            "name": "Norwich",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 9850,
+            "name": "Norwich",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "06:30",
+            "startDateStr": "Sat, 23 Oct",
+            "startDateStrShort": "23. Oct."
+          }
+        },
+        {
+          "id": 3731797,
+          "pageUrl": "/livescores/3731797/matchfacts/chelsea-vs-southampton",
+          "opponent": {
+            "id": 8466,
+            "name": "Southampton",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8466,
+            "name": "Southampton",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | Carabao Cup"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Carabao Cup",
+            "leagueId": 133
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "13:45",
+            "startDateStr": "Tue, 26 Oct",
+            "startDateStrShort": "26. Oct."
+          }
+        },
+        {
+          "id": 3610024,
+          "pageUrl": "/livescores/3610024/matchfacts/newcastle-united-vs-chelsea",
+          "opponent": {
+            "id": 10261,
+            "name": "Newcastle",
+            "score": 0
+          },
+          "home": {
+            "id": 10261,
+            "name": "Newcastle",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "Sat, 30 Oct",
+            "startDateStrShort": "30. Oct."
+          }
+        },
+        {
+          "id": 3714088,
+          "pageUrl": "/livescores/3714088/matchfacts/malmö-ff-vs-chelsea",
+          "opponent": {
+            "id": 10237,
+            "name": "Malmö FF",
+            "score": 0
+          },
+          "home": {
+            "id": 10237,
+            "name": "Malmö FF",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "A",
+            " | Champions League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Champions League",
+            "leagueId": 42
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "12:45",
+            "startDateStr": "Tue, 2 Nov",
+            "startDateStrShort": "2. Nov."
+          }
+        },
+        {
+          "id": 3610032,
+          "pageUrl": "/livescores/3610032/matchfacts/chelsea-vs-burnley",
+          "opponent": {
+            "id": 8191,
+            "name": "Burnley",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8191,
+            "name": "Burnley",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "10:00",
+            "startDateStr": "Sat, 6 Nov",
+            "startDateStrShort": "6. Nov."
+          }
+        },
+        {
+          "id": 3610041,
+          "pageUrl": "/livescores/3610041/matchfacts/leicester-city-vs-chelsea",
+          "opponent": {
+            "id": 8197,
+            "name": "Leicester",
+            "score": 0
+          },
+          "home": {
+            "id": 8197,
+            "name": "Leicester",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "06:30",
+            "startDateStr": "Sat, 20 Nov",
+            "startDateStrShort": "20. Nov."
+          }
+        },
+        {
+          "id": 3714091,
+          "pageUrl": "/livescores/3714091/matchfacts/chelsea-vs-juventus",
+          "opponent": {
+            "id": 9885,
+            "name": "Juventus",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 9885,
+            "name": "Juventus",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "H",
+            " | Champions League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Champions League",
+            "leagueId": 42
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "14:00",
+            "startDateStr": "Tue, 23 Nov",
+            "startDateStrShort": "23. Nov."
+          }
+        },
+        {
+          "id": 3610053,
+          "pageUrl": "/livescores/3610053/matchfacts/chelsea-vs-manchester-united",
+          "opponent": {
+            "id": 10260,
+            "name": "Man United",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 10260,
+            "name": "Man United",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "10:30",
+            "startDateStr": "Sun, 28 Nov",
+            "startDateStrShort": "28. Nov."
+          }
+        },
+        {
+          "id": 3610062,
+          "pageUrl": "/livescores/3610062/matchfacts/watford-vs-chelsea",
+          "opponent": {
+            "id": 9817,
+            "name": "Watford",
+            "score": 0
+          },
+          "home": {
+            "id": 9817,
+            "name": "Watford",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "13:45",
+            "startDateStr": "Tue, 30 Nov",
+            "startDateStrShort": "30. Nov."
+          }
+        },
+        {
+          "id": 3610077,
+          "pageUrl": "/livescores/3610077/matchfacts/west-ham-united-vs-chelsea",
+          "opponent": {
+            "id": 8654,
+            "name": "West Ham",
+            "score": 0
+          },
+          "home": {
+            "id": 8654,
+            "name": "West Ham",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "Sat, 4 Dec",
+            "startDateStrShort": "4. Dec."
+          }
+        },
+        {
+          "id": 3714093,
+          "pageUrl": "/livescores/3714093/matchfacts/zenit-st.-petersburg-vs-chelsea",
+          "opponent": {
+            "id": 8698,
+            "name": "Zenit",
+            "score": 0
+          },
+          "home": {
+            "id": 8698,
+            "name": "Zenit",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": true,
+          "lnameArr": [
+            "A",
+            " | Champions League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Champions League",
+            "leagueId": 42
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "11:45",
+            "startDateStr": "Wed, 8 Dec",
+            "startDateStrShort": "8. Dec."
+          }
+        },
+        {
+          "id": 3610084,
+          "pageUrl": "/livescores/3610084/matchfacts/chelsea-vs-leeds-united",
+          "opponent": {
+            "id": 8463,
+            "name": "Leeds",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8463,
+            "name": "Leeds",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "Sat, 11 Dec",
+            "startDateStrShort": "11. Dec."
+          }
+        },
+        {
+          "id": 3610097,
+          "pageUrl": "/livescores/3610097/matchfacts/chelsea-vs-everton",
+          "opponent": {
+            "id": 8668,
+            "name": "Everton",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8668,
+            "name": "Everton",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "14:00",
+            "startDateStr": "Wed, 15 Dec",
+            "startDateStrShort": "15. Dec."
+          }
+        },
+        {
+          "id": 3610109,
+          "pageUrl": "/livescores/3610109/matchfacts/wolverhampton-wanderers-vs-chelsea",
+          "opponent": {
+            "id": 8602,
+            "name": "Wolves",
+            "score": 0
+          },
+          "home": {
+            "id": 8602,
+            "name": "Wolves",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "Sat, 18 Dec",
+            "startDateStrShort": "18. Dec."
+          }
+        },
+        {
+          "id": 3610110,
+          "pageUrl": "/livescores/3610110/matchfacts/aston-villa-vs-chelsea",
+          "opponent": {
+            "id": 10252,
+            "name": "Aston Villa",
+            "score": 0
+          },
+          "home": {
+            "id": 10252,
+            "name": "Aston Villa",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "Sun, 26 Dec",
+            "startDateStrShort": "26. Dec."
+          }
+        },
+        {
+          "id": 3610122,
+          "pageUrl": "/livescores/3610122/matchfacts/chelsea-vs-brighton-&-hove-albion",
+          "opponent": {
+            "id": 10204,
+            "name": "Brighton",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 10204,
+            "name": "Brighton",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "Tue, 28 Dec",
+            "startDateStrShort": "28. Dec."
+          }
+        },
+        {
+          "id": 3610132,
+          "pageUrl": "/livescores/3610132/matchfacts/chelsea-vs-liverpool",
+          "opponent": {
+            "id": 8650,
+            "name": "Liverpool",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8650,
+            "name": "Liverpool",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "1 January 2022",
+            "startDateStrShort": "1. Jan."
+          }
+        },
+        {
+          "id": 3610144,
+          "pageUrl": "/livescores/3610144/matchfacts/manchester-city-vs-chelsea",
+          "opponent": {
+            "id": 8456,
+            "name": "Man City",
+            "score": 0
+          },
+          "home": {
+            "id": 8456,
+            "name": "Man City",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "15 January 2022",
+            "startDateStrShort": "15. Jan."
+          }
+        },
+        {
+          "id": 3610152,
+          "pageUrl": "/livescores/3610152/matchfacts/chelsea-vs-tottenham-hotspur",
+          "opponent": {
+            "id": 8586,
+            "name": "Tottenham",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8586,
+            "name": "Tottenham",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "22 January 2022",
+            "startDateStrShort": "22. Jan."
+          }
+        },
+        {
+          "id": 3610161,
+          "pageUrl": "/livescores/3610161/matchfacts/brighton-&-hove-albion-vs-chelsea",
+          "opponent": {
+            "id": 10204,
+            "name": "Brighton",
+            "score": 0
+          },
+          "home": {
+            "id": 10204,
+            "name": "Brighton",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "13:45",
+            "startDateStr": "8 February 2022",
+            "startDateStrShort": "8. Feb."
+          }
+        },
+        {
+          "id": 3610172,
+          "pageUrl": "/livescores/3610172/matchfacts/chelsea-vs-arsenal",
+          "opponent": {
+            "id": 9825,
+            "name": "Arsenal",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 9825,
+            "name": "Arsenal",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "12 February 2022",
+            "startDateStrShort": "12. Feb."
+          }
+        },
+        {
+          "id": 3610183,
+          "pageUrl": "/livescores/3610183/matchfacts/crystal-palace-vs-chelsea",
+          "opponent": {
+            "id": 9826,
+            "name": "Crystal Palace",
+            "score": 0
+          },
+          "home": {
+            "id": 9826,
+            "name": "Crystal Palace",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "19 February 2022",
+            "startDateStrShort": "19. Feb."
+          }
+        },
+        {
+          "id": 3610193,
+          "pageUrl": "/livescores/3610193/matchfacts/chelsea-vs-leicester-city",
+          "opponent": {
+            "id": 8197,
+            "name": "Leicester",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8197,
+            "name": "Leicester",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "26 February 2022",
+            "startDateStrShort": "26. Feb."
+          }
+        },
+        {
+          "id": 3610201,
+          "pageUrl": "/livescores/3610201/matchfacts/burnley-vs-chelsea",
+          "opponent": {
+            "id": 8191,
+            "name": "Burnley",
+            "score": 0
+          },
+          "home": {
+            "id": 8191,
+            "name": "Burnley",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "5 March 2022",
+            "startDateStrShort": "5. Mar."
+          }
+        },
+        {
+          "id": 3610213,
+          "pageUrl": "/livescores/3610213/matchfacts/chelsea-vs-newcastle-united",
+          "opponent": {
+            "id": 10261,
+            "name": "Newcastle",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 10261,
+            "name": "Newcastle",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "12 March 2022",
+            "startDateStrShort": "12. Mar."
+          }
+        },
+        {
+          "id": 3610226,
+          "pageUrl": "/livescores/3610226/matchfacts/norwich-city-vs-chelsea",
+          "opponent": {
+            "id": 9850,
+            "name": "Norwich",
+            "score": 0
+          },
+          "home": {
+            "id": 9850,
+            "name": "Norwich",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "10:00",
+            "startDateStr": "19 March 2022",
+            "startDateStrShort": "19. Mar."
+          }
+        },
+        {
+          "id": 3610237,
+          "pageUrl": "/livescores/3610237/matchfacts/chelsea-vs-brentford",
+          "opponent": {
+            "id": 9937,
+            "name": "Brentford",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 9937,
+            "name": "Brentford",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "2 April 2022",
+            "startDateStrShort": "2. Apr."
+          }
+        },
+        {
+          "id": 3610241,
+          "pageUrl": "/livescores/3610241/matchfacts/southampton-vs-chelsea",
+          "opponent": {
+            "id": 8466,
+            "name": "Southampton",
+            "score": 0
+          },
+          "home": {
+            "id": 8466,
+            "name": "Southampton",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "9 April 2022",
+            "startDateStrShort": "9. Apr."
+          }
+        },
+        {
+          "id": 3610257,
+          "pageUrl": "/livescores/3610257/matchfacts/leeds-united-vs-chelsea",
+          "opponent": {
+            "id": 8463,
+            "name": "Leeds",
+            "score": 0
+          },
+          "home": {
+            "id": 8463,
+            "name": "Leeds",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "16 April 2022",
+            "startDateStrShort": "16. Apr."
+          }
+        },
+        {
+          "id": 3610265,
+          "pageUrl": "/livescores/3610265/matchfacts/chelsea-vs-west-ham-united",
+          "opponent": {
+            "id": 8654,
+            "name": "West Ham",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8654,
+            "name": "West Ham",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "23 April 2022",
+            "startDateStrShort": "23. Apr."
+          }
+        },
+        {
+          "id": 3610278,
+          "pageUrl": "/livescores/3610278/matchfacts/everton-vs-chelsea",
+          "opponent": {
+            "id": 8668,
+            "name": "Everton",
+            "score": 0
+          },
+          "home": {
+            "id": 8668,
+            "name": "Everton",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "30 April 2022",
+            "startDateStrShort": "30. Apr."
+          }
+        },
+        {
+          "id": 3610285,
+          "pageUrl": "/livescores/3610285/matchfacts/chelsea-vs-wolverhampton-wanderers",
+          "opponent": {
+            "id": 8602,
+            "name": "Wolves",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 8602,
+            "name": "Wolves",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "7 May 2022",
+            "startDateStrShort": "7. May."
+          }
+        },
+        {
+          "id": 3610296,
+          "pageUrl": "/livescores/3610296/matchfacts/manchester-united-vs-chelsea",
+          "opponent": {
+            "id": 10260,
+            "name": "Man United",
+            "score": 0
+          },
+          "home": {
+            "id": 10260,
+            "name": "Man United",
+            "score": 0
+          },
+          "away": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "A",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "09:00",
+            "startDateStr": "15 May 2022",
+            "startDateStrShort": "15. May."
+          }
+        },
+        {
+          "id": 3610304,
+          "pageUrl": "/livescores/3610304/matchfacts/chelsea-vs-watford",
+          "opponent": {
+            "id": 9817,
+            "name": "Watford",
+            "score": 0
+          },
+          "home": {
+            "id": 8455,
+            "name": "Chelsea",
+            "score": 0
+          },
+          "away": {
+            "id": 9817,
+            "name": "Watford",
+            "score": 0
+          },
+          "displayTournament": false,
+          "lnameArr": [
+            "H",
+            " | Premier League"
+          ],
+          "color": "#333333",
+          "notStarted": true,
+          "tournament": {
+            "name": "Premier League",
+            "leagueId": 47
+          },
+          "status": {
+            "started": false,
+            "cancelled": false,
+            "finished": false,
+            "startTimeStr": "10:00",
+            "startDateStr": "22 May 2022",
+            "startDateStrShort": "22. May."
+          }
+        }
+      ],
       "teamId": 8455,
-      "teamName": "Chelsea"
+      "teamName": "Chelsea",
+      "country": "England",
+      "shortName": "Chelsea"
     },
     {
       "players": [
