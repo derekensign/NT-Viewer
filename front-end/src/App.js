@@ -19,7 +19,7 @@ import interactionPlugin from '@fullcalendar/interaction'; // needed for dayClic
 import '@fullcalendar/daygrid/main.css';
 import '@fullcalendar/timegrid/main.css';
 import Moment from 'react-moment';
-import BigScheduler from './scheduler/BigScheduler';
+import BigScheduler from './components/BigScheduler';
 import { Counter } from './features/counter/Counter';
 import './App.css';
 
