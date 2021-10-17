@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import FormControl from '@mui/material/FormControl';
@@ -24,83 +24,14 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 
 function App() {
-  const schedulerData = new SchedulerData(new Moment(), ViewTypes.Week);
+  const [selectedCountry, setSelectedCountry] = useState([]);
+  const [selectedPosition, setSelectedPosition] = useState([]);
+  const [selectedClub, setSelectedClub] = useState([]);
+  const [open, setOpen] = React.useState(false);
 
-  const resources = [
-    {
-      id: 'r0',
-      name: 'Resource0',
-      groupOnly: true,
-    },
-    {
-      id: 'r1',
-      name: 'Resource1',
-    },
-    {
-      id: 'r2',
-      name: 'Resource2',
-      parentId: 'r0',
-    },
-    {
-      id: 'r3',
-      name: 'Resource3',
-      parentId: 'r4',
-    },
-    {
-      id: 'r4',
-      name: 'Resource4',
-      parentId: 'r2',
-    },
-  ];
-  schedulerData.setResources(resources);
-  // set events here or later,
-  // the event array should be sorted in ascending order by event.start property,
-  // otherwise there will be some rendering errors
-  const events = [
-    {
-      id: 1,
-      start: '2017-12-18 09:30:00',
-      end: '2017-12-19 23:30:00',
-      resourceId: 'r1',
-      title: 'I am finished',
-      bgColor: '#D9D9D9',
-    },
-    {
-      id: 2,
-      start: '2017-12-18 12:30:00',
-      end: '2017-12-26 23:30:00',
-      resourceId: 'r2',
-      title: 'I am not resizable',
-      resizable: false,
-    },
-    {
-      id: 3,
-      start: '2017-12-19 12:30:00',
-      end: '2017-12-20 23:30:00',
-      resourceId: 'r3',
-      title: 'I am not movable',
-      movable: false,
-    },
-    {
-      id: 4,
-      start: '2017-12-19 14:30:00',
-      end: '2017-12-20 23:30:00',
-      resourceId: 'r1',
-      title: 'I am not start-resizable',
-      startResizable: false,
-    },
-    {
-      id: 5,
-      start: '2017-12-19 15:30:00',
-      end: '2017-12-20 23:30:00',
-      resourceId: 'r2',
-      title: 'R2 has recurring tasks every week on Tuesday, Friday',
-      rrule: 'FREQ=WEEKLY;DTSTART=20171219T013000Z;BYDAY=TU,FR',
-      bgColor: '#f759ab',
-    },
-  ];
-  schedulerData.setEvents(events);
-
+  const handleCountryChange = (event) => {
+    setSelectedCountry(event.target.value);
+  };
   return (
     <div className="App">
       <Box
@@ -118,41 +49,40 @@ function App() {
         <Grid item xs={4}>
           <FormControl variant="filled" sx={{ width: '75%' }}>
             <InputLabel>Country</InputLabel>
-            <Select>
-              <MenuItem>USA</MenuItem>
-              <MenuItem>Mexico</MenuItem>
+            <Select
+              value={selectedCountry}
+              defaultValue=""
+              onChange={handleCountryChange}
+            >
+              <MenuItem value="">
+                <em>None</em>
+              </MenuItem>
+              <MenuItem value="USA">USA</MenuItem>
+              <MenuItem value="Mexico">Mexico</MenuItem>
             </Select>
           </FormControl>
         </Grid>
         <Grid item xs={4}>
           <FormControl variant="filled" sx={{ width: '75%' }}>
-            <InputLabel>Country</InputLabel>
+            <InputLabel>Position</InputLabel>
             <Select>
-              <MenuItem>USA</MenuItem>
-              <MenuItem>Mexico</MenuItem>
+              <MenuItem>GK</MenuItem>
+              <MenuItem>DF</MenuItem>
+              <MenuItem>MF</MenuItem>
+              <MenuItem>FW</MenuItem>
             </Select>
           </FormControl>
         </Grid>
         <Grid item xs={4}>
           <FormControl variant="filled" sx={{ width: '75%' }}>
-            <InputLabel>Country</InputLabel>
+            <InputLabel>Club</InputLabel>
             <Select>
-              <MenuItem>USA</MenuItem>
-              <MenuItem>Mexico</MenuItem>
+              <MenuItem>Chelsea</MenuItem>
+              <MenuItem>Barcelona</MenuItem>
+              <MenuItem>Juventus</MenuItem>
             </Select>
           </FormControl>
         </Grid>
-        {/* <div className="demo-app-calendar">
-          <FullCalendar
-            defaultView="dayGridMonth"
-            header={{
-              left: 'prev,next today',
-              center: 'title',
-              right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek'
-            }}
-            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
-          />
-        </div> */}
         <BigScheduler />
       </Grid>
     </div>
