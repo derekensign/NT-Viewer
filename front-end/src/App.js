@@ -32,6 +32,12 @@ function App() {
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
   };
+  const handlePositionChange = (event) => {
+    setSelectedPosition(event.target.value);
+  };
+  const handleClubChange = (event) => {
+    setSelectedClub(event.target.value);
+  };
   return (
     <div className="App">
       <Box
@@ -65,21 +71,29 @@ function App() {
         <Grid item xs={4}>
           <FormControl variant="filled" sx={{ width: '75%' }}>
             <InputLabel>Position</InputLabel>
-            <Select>
-              <MenuItem>GK</MenuItem>
-              <MenuItem>DF</MenuItem>
-              <MenuItem>MF</MenuItem>
-              <MenuItem>FW</MenuItem>
+            <Select
+              value={selectedPosition}
+              defaultValue=""
+              onChange={handlePositionChange}
+            >
+              <MenuItem value="GK">GK</MenuItem>
+              <MenuItem value="DF">DF</MenuItem>
+              <MenuItem value="MF">MF</MenuItem>
+              <MenuItem value="FW">FW</MenuItem>
             </Select>
           </FormControl>
         </Grid>
         <Grid item xs={4}>
           <FormControl variant="filled" sx={{ width: '75%' }}>
             <InputLabel>Club</InputLabel>
-            <Select>
-              <MenuItem>Chelsea</MenuItem>
-              <MenuItem>Barcelona</MenuItem>
-              <MenuItem>Juventus</MenuItem>
+            <Select
+              value={selectedClub}
+              defaultValue=""
+              onChange={handleClubChange}
+            >
+              <MenuItem value="Chelsea">Chelsea</MenuItem>
+              <MenuItem value="Barcelona">Barcelona</MenuItem>
+              <MenuItem value="Juventus">Juventus</MenuItem>
             </Select>
           </FormControl>
         </Grid>
