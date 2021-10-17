@@ -21,13 +21,15 @@ import '@fullcalendar/timegrid/main.css';
 import Moment from 'react-moment';
 import BigScheduler from './components/BigScheduler';
 import { Counter } from './features/counter/Counter';
+import players from './players.json';
 import './App.css';
 
 function App() {
   const [selectedCountry, setSelectedCountry] = useState([]);
   const [selectedPosition, setSelectedPosition] = useState([]);
   const [selectedClub, setSelectedClub] = useState([]);
-  const [open, setOpen] = React.useState(false);
+
+  console.log(players);
 
   const handleCountryChange = (event) => {
     setSelectedCountry(event.target.value);
@@ -38,6 +40,12 @@ function App() {
   const handleClubChange = (event) => {
     setSelectedClub(event.target.value);
   };
+  const positionsList = new Set();
+  players.players.map((player, i) => (
+    positionsList.add(player.playerPosition)
+  ));
+
+  console.log(positionsList);
   return (
     <div className="App">
       <Box
