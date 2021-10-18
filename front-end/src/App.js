@@ -42,7 +42,9 @@ function App() {
   };
   const positionsList = new Set();
   players.players.map((player, i) => (
-    positionsList.add(player.playerPosition)
+    player.playerPosition.forEach((position) => {
+      positionsList.add(position);
+    })
   ));
 
   console.log(positionsList);
@@ -84,10 +86,13 @@ function App() {
               defaultValue=""
               onChange={handlePositionChange}
             >
-              <MenuItem value="GK">GK</MenuItem>
-              <MenuItem value="DF">DF</MenuItem>
-              <MenuItem value="MF">MF</MenuItem>
-              <MenuItem value="FW">FW</MenuItem>
+              <MenuItem value="">
+                <em>None</em>
+              </MenuItem>
+              {positionsList.forEach((position) => (
+                // console.log(`"${position}"`)
+                <MenuItem defaultValue="" value={position}>{position}</MenuItem>
+              ))}
             </Select>
           </FormControl>
         </Grid>
