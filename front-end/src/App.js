@@ -28,6 +28,7 @@ function App() {
   const [selectedCountry, setSelectedCountry] = useState([]);
   const [selectedPosition, setSelectedPosition] = useState([]);
   const [selectedClub, setSelectedClub] = useState([]);
+  const [positionList, setPositionList] = useState([]);
 
   console.log(players);
 
@@ -54,7 +55,16 @@ function App() {
   // Make new Array of Positions with only Unique Positions
   const positionArray = [...new Set(rawPositionArray)];
 
+  // function to set position list to state
+  const getPositionList = () => {
+    setPositionList(positionArray);
+  };
+
   console.log('Positions', positionArray);
+
+  useEffect(() => {
+    getPositionList();
+  }, []);
 
   return (
     <div className="App">
