@@ -40,14 +40,22 @@ function App() {
   const handleClubChange = (event) => {
     setSelectedClub(event.target.value);
   };
-  const positionsList = new Set();
+
+  // Create Raw Array to push positions into
+  const rawPositionArray = [];
+
+  // Iterate through player positions and add them to the rawPositionArray
   players.players.map((player, i) => (
     player.playerPosition.forEach((position) => {
-      positionsList.add(position);
+      rawPositionArray.push(position);
     })
   ));
 
-  console.log(positionsList);
+  // Make new Array of Positions with only Unique Positions
+  const positionArray = [...new Set(rawPositionArray)];
+
+  console.log('Positions', positionArray);
+
   return (
     <div className="App">
       <Box
@@ -89,10 +97,10 @@ function App() {
               <MenuItem value="">
                 <em>None</em>
               </MenuItem>
-              {positionsList.forEach((position) => (
+              {/* {positionsList.forEach((position) => (
                 // console.log(`"${position}"`)
                 <MenuItem defaultValue="" value={position}>{position}</MenuItem>
-              ))}
+              ))} */}
             </Select>
           </FormControl>
         </Grid>
