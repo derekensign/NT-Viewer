@@ -43,37 +43,36 @@ function App() {
     setSelectedClub(event.target.value);
   };
 
-  // Create Raw Array to push positions into
-  const rawPositionArray = [];
-  const rawClubArray = [];
-
-  // Iterate through player positions and add them to the rawPositionArray
-  players.players.map((player, i) => (
-    player.playerPosition.forEach((position) => {
-      rawPositionArray.push(position);
-    })
-  ));
-
-  players.players.map((player, i) => (
-    rawClubArray.push(player.teamName)
-  ));
-
-  // Make new Array of Positions with only Unique Positions
-  const positionArray = [...new Set(rawPositionArray)];
-
-  const clubArray = [...new Set(rawClubArray)];
-
   // function to set position list to state
   const getPositionList = () => {
+    // Create Raw Array to push positions into
+    const rawPositionArray = [];
+
+    // Iterate through player positions and add them to the rawPositionArray
+    players.players.map((player) => (
+      player.playerPosition.forEach((position) => {
+        rawPositionArray.push(position);
+      })
+    ));
+
+    // Make new Array of Positions with only Unique Positions
+    const positionArray = [...new Set(rawPositionArray)];
     setPositionList(positionArray);
   };
 
   const getClubList = () => {
+    // Create Raw Array to push clubs into
+    const rawClubArray = [];
+
+    // Iterate through player clubs and add them to the rawClubArray
+    players.players.map((player, i) => (
+      rawClubArray.push(player.teamName)
+    ));
+
+    // Make new Array of clubs with only Unique Clubs
+    const clubArray = [...new Set(rawClubArray)];
     setClubList(clubArray);
   };
-
-  console.log('Positions', positionArray);
-  console.log('Clubs', clubArray);
 
   useEffect(() => {
     getPositionList();
