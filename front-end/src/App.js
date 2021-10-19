@@ -107,10 +107,10 @@ function App() {
               <MenuItem value="">
                 <em>None</em>
               </MenuItem>
-              {/* {positionsList.forEach((position) => (
+              {positionList.map((position) => (
                 // console.log(`"${position}"`)
                 <MenuItem defaultValue="" value={position}>{position}</MenuItem>
-              ))} */}
+              ))}
             </Select>
           </FormControl>
         </Grid>
