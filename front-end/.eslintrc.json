@@ -24,6 +24,7 @@
         "no-unused-vars": "warn",
         "comma-dangle": "warn",
         "react/button-has-type": "warn",
-        "no-param-reassign": [2, { "props": false }]
+        "no-param-reassign": [2, { "props": false }],
+        "no-shadow": "warn"
     }
 }
