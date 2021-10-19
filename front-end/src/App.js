@@ -29,6 +29,7 @@ function App() {
   const [selectedPosition, setSelectedPosition] = useState([]);
   const [selectedClub, setSelectedClub] = useState([]);
   const [positionList, setPositionList] = useState([]);
+  const [clubList, setClubList] = useState([]);
 
   console.log(players);
 
@@ -44,6 +45,7 @@ function App() {
 
   // Create Raw Array to push positions into
   const rawPositionArray = [];
+  const rawClubArray = [];
 
   // Iterate through player positions and add them to the rawPositionArray
   players.players.map((player, i) => (
@@ -52,18 +54,30 @@ function App() {
     })
   ));
 
+  players.players.map((player, i) => (
+    rawClubArray.push(player.teamName)
+  ));
+
   // Make new Array of Positions with only Unique Positions
   const positionArray = [...new Set(rawPositionArray)];
+
+  const clubArray = [...new Set(rawClubArray)];
 
   // function to set position list to state
   const getPositionList = () => {
     setPositionList(positionArray);
   };
 
+  const getClubList = () => {
+    setClubList(clubArray);
+  };
+
   console.log('Positions', positionArray);
+  console.log('Clubs', clubArray);
 
   useEffect(() => {
     getPositionList();
+    getClubList();
   }, []);
 
   return (
@@ -122,9 +136,13 @@ function App() {
               defaultValue=""
               onChange={handleClubChange}
             >
-              <MenuItem value="Chelsea">Chelsea</MenuItem>
-              <MenuItem value="Barcelona">Barcelona</MenuItem>
-              <MenuItem value="Juventus">Juventus</MenuItem>
+              <MenuItem value="">
+                <em>None</em>
+              </MenuItem>
+              {clubList.map((club) => (
+                // console.log(`"${club}"`)
+                <MenuItem defaultValue="" value={club}>{club}</MenuItem>
+              ))}
             </Select>
           </FormControl>
         </Grid>
