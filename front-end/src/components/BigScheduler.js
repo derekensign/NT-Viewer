@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Scheduler, {
   SchedulerData,
   ViewTypes,
@@ -11,10 +12,11 @@ class BigScheduler extends Component {
   constructor(props) {
     super(props);
 
+    console.log('PlayerListPrint', props.playerList);
     const schedulerData = new SchedulerData('2017-12-18', ViewTypes.Week);
     schedulerData.localeMoment.locale('en');
-    schedulerData.setResources(DemoData.resources);
-    schedulerData.setEvents(DemoData.events);
+    schedulerData.setResources(props.playerList);
+    // schedulerData.setEvents(DemoData.events);
     this.state = {
       viewModel: schedulerData
     };

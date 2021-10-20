@@ -6,7 +6,9 @@ import Select from '@mui/material/Select';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Scheduler, {
-  SchedulerData, ViewTypes, DATE_FORMAT,
+  SchedulerData,
+  ViewTypes,
+  DemoData
 } from 'react-big-scheduler';
 import 'react-big-scheduler/lib/css/style.css';
 import FullCalendar from '@fullcalendar/react';
@@ -24,12 +26,15 @@ import { Counter } from './features/counter/Counter';
 import players from './players.json';
 import './App.css';
 
+console.log(DemoData);
+
 function App() {
   const [selectedCountry, setSelectedCountry] = useState([]);
   const [selectedPosition, setSelectedPosition] = useState([]);
   const [selectedClub, setSelectedClub] = useState([]);
   const [positionList, setPositionList] = useState([]);
   const [clubList, setClubList] = useState([]);
+  const [playerList, setPlayerList] = useState([]);
 
   console.log(players);
 
@@ -65,7 +70,7 @@ function App() {
     const rawClubArray = [];
 
     // Iterate through player clubs and add them to the rawClubArray
-    players.players.map((player, i) => (
+    players.players.map((player) => (
       rawClubArray.push(player.teamName)
     ));
 
@@ -74,9 +79,23 @@ function App() {
     setClubList(clubArray);
   };
 
+  const getPlayerList = () => {
+    const playerArray = [];
+
+    players.players.forEach((player, i) => (
+      playerArray.push({
+        id: player.playerId,
+        name: player.name
+      })
+    ));
+
+    setPlayerList(playerArray);
+  };
+
   useEffect(() => {
     getPositionList();
     getClubList();
+    getPlayerList();
   }, []);
 
   return (
@@ -145,7 +164,9 @@ function App() {
             </Select>
           </FormControl>
         </Grid>
-        <BigScheduler />
+        <BigScheduler
+          playerList={playerList}
+        />
       </Grid>
     </div>
 
